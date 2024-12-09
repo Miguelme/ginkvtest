@@ -1,0 +1,56 @@
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+bin/
+pkg/
+*.log
+
+# Go modules
+go.sum
+go.work
+go.work.sum
+
+# Vendor directory (if you are not committing vendor dependencies)
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sw?
+*.tmp
+
+# Test results
+*.cover
+*.coverprofile
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Cache and build output
+*.o
+*.a
+*.cgo/
+
+# Go race detector outputs
+*.race
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+*.pb.go
+*.pb.gw.go
+
+# Windows
+Thumbs.db
+Desktop.ini
